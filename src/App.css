@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
+  width: 70%;
+  border: 1px solid;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
 
 .App-logo {
@@ -26,6 +30,180 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.header__green {
+  width: 1006px;
+  height: 61px;
+
+  background: #7ABCAC;
+  margin: 0 auto;
+}
+
+.header__name {
+  border: 2px solid rgb(0,0,0);
+  margin: -20px auto 0 auto;
+  width: 586px;
+  height: 189px;
+  text-align: center;
+}
+
+.header__name h1 {
+  font-size: 46px;
+}
+
+.header__name h2 {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  width: 200px;
+  margin: 0 auto;
+
+}
+
+.info {
+  border: 1px solid;
+  text-align: left;
+}
+
+.info__line {
+  display: flex;
+}
+
+.info__link {
+  width: 288px;
+  height: 205px;
+  height: auto;
+  border: 1px solid;
+}
+
+.info__link__item {
+  font-weight: bold;
+  display: flex;
+  margin: 5px 0 5px 0;
+}
+
+.info__link__img {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: rgb(0,0,0);
+  align-self: center;
+}
+
+.info__link__item a {
+  align-self: center;
+}
+
+.info__about {
+  width: 618px;
+  height: 194px;
+  border: 1px solid;
+}
+
+.info__head h3 {
+  text-align: left;
+}
+
+.info__education {
+  border: 1px solid;
+  width: 288px;
+  height: auto;
+}
+
+.info__education__item {
+  font-weight: bold;
+  width: 190px;
+  padding: 20px 0;
+  border-top: 1px solid;
+}
+
+.info__education__item:nth-child(2) {
+  border-top: 0px solid;
+}
+
+.info__personal {
+  width: 289px;
+  height: 189px;
+  border: 1px solid;
+}
+
+.info__item {
+  width: auto;
+  display: inline-block;
+  height: 20px;
+  border-radius: 15px;
+  padding: 2px 15px;
+  margin: 5px 0 0 0;
+}
+
+.red__item {
+  background-color: #C29486;
+}
+
+.yellow__item {
+  background-color: #D8DA79;
+}
+
+.green__item {
+  background-color: #7ABCAC;
+}
+
+.info__technical {
+  width: 289px;
+  height: 239px;
+  border: 1px solid;
+}
+
+.experience {
+  width: 100%;
+  border: 1px solid;
+  margin: 20px 0 20px 0;
+}
+
+.experience__line {
+  display: flex;
+}
+
+.experience__pos {
+  border: 1px solid;
+  text-align: center;
+  width: 296px;
+  height: 235px;
+}
+
+.contact {
+  border: 1px solid;
+  display: flex;
+}
+
+.contact__item {
+  border: 1px solid;
+  text-align: center;
+  width: 296px;
+  height: 55px;
+}
+
+.contact__head {
+  width: 100%;
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(180,180,180);
+}
+
+.green {
+  width: 50px;
+  height: 15px;
+  background-color: rgb(122,188,172);
+  margin-top: -10px;
+}
+
+.marginleft {
+  margin-left: 40px;
 }
 
 @keyframes App-logo-spin {
